@@ -29,7 +29,8 @@
         "git-emit" : "0.0.x",
         "pushover" : "0.1.x",
         "mkdirp" : "0.2.x",
-        "chdir" : "0.0.x"
+        "chdir" : "0.0.x",
+        "optimist" : "0.3.x"
     },
     "devDependencies" : {
         "tap" : "0.0.x"
