@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var argv = require('optimist').argv;
 var http = require('http');
 var url = require('url');
