@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var argv = require('optimist').argv;
+var argv = require('../lib/argv');
 var propagit = require('propagit');
 var EventEmitter = require('events').EventEmitter;
 
