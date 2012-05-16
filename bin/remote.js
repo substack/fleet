@@ -10,7 +10,7 @@ var cmd = argv._[0];
 
 if (cmd === 'add') {
     var name = argv._[1] || 'default';
-    remote.add(name, { hub : argv.hub, secret : argv.secret });
+    remote.add(name, { hub : argv.hub, secret : argv.secret, env: argv.env });
 }
 else if (cmd === 'rm' || cmd === 'remove') {
     var name = argv._[1] || 'default';

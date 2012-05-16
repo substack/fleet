@@ -22,10 +22,17 @@ Add a remote named `<name>` to store the parameters from `<options>`.
 
 * hub - where the fleet hub is running as a "host:port" string
 * secret - the plaintext password to use for authentication
+* env.`<name>` - Set environment variables to use with spawn and exec
+
 
 Example usage:
 
     fleet remote add default --hub=10.0.5.2:6002 --secret=rawr
+
+Add remote with environment variables:
+
+    fleet remote add default --hub=10.0.5.2:6002 --secret=rawr --env.FOO=3 --env.BAR=kapow
+
 
 ### fleet remote rm `<name>`
 
