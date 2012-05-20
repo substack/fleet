@@ -19,7 +19,7 @@ p.hub(function (hub) {
     var opts = {
         drone : argv.drone,
         drones : argv.drones,
-        pid : argv._.map(function (x) { return x.replace(/^pid#/, '') }),
+        pid : argv._.map(function (x) { return x.toString().replace(/^pid#/, '') }),
     };
     hub.stop(opts, function (err, drones) {
         Object.keys(drones).forEach(function (id) {
