@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 secret='beepboop'
 tmpdir=/tmp/$(node -e '(Math.random()*Math.pow(2,32)).toString(16)')
