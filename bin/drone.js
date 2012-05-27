@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var argv = require('optimist').argv;
+argv._.splice(0, 1);
 var propagit = require('propagit');
 var drone = propagit(argv).drone();
 
