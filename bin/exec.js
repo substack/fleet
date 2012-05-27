@@ -13,6 +13,9 @@ p.on('error', function (err) {
 });
 
 p.hub(function (hub) {
+    // translate *--escaped into --escaped
+    argv._ = argv._.map(function(x) { return x.replace(/^\*--/, '--'); });
+
     var opts = {
         drone : argv.drone,
         drones : argv.drones,
