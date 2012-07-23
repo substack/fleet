@@ -10,5 +10,6 @@ The commands are:
   remote   Manage the set of remote hubs.
   spawn    Run services on drones.
   stop     Stop processes running on drones.
+  version  Print fleet's version
 
 For help about a command, try `fleet help <command>`.

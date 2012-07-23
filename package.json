@@ -19,7 +19,8 @@
         "fleet-monitor" : "bin/monitor.js",
         "fleet-spawn" : "bin/spawn.js",
         "fleet-stop" : "bin/stop.js",
-        "fleet-exec" : "bin/exec.js"
+        "fleet-exec" : "bin/exec.js",
+        "fleet-version" : "bin/version.js"
     },
     "keywords" : [
         "cluster",
