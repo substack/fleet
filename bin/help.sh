@@ -1,5 +1,6 @@
 #!/bin/bash
-rootdir=$(fleet rootdir)
+dirname=$(dirname "$_")
+rootdir=$($dirname/fleet-rootdir)
 
 if test -z "$1" || test "$1" = "commands"; then
     cat "$rootdir/doc/commands"
