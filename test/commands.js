@@ -12,7 +12,7 @@ var dir = {
     gitRepo: basedir +'/gitRepo',
 };
 var procs = { hub : null, drone : [] };
-var port = Math.floor(Math.random() * ((1<<16) - 1e4)) + 1e4;
+var port = Math.floor(Math.random() * 5e4 - 1e4) + 1e4;
 
 dir.drone.concat(dir.hub).forEach(function (x) { 
     mkdirp.sync(x);
