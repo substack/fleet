@@ -1,5 +1,5 @@
 #!/bin/bash
-dirname=$(dirname "$_")
+dirname="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if test -z "$*"; then
   $dirname/fleet-help
