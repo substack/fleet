@@ -71,7 +71,10 @@ function spawn (hub, opts) {
                 if (procs[proc.drone] !== proc.id) return;
                 console.log('(' + proc.drone + '#' + proc.id + ' exited)');
                 
-                if (--pending === 0) p.hub.close();
+                if (--pending === 0) {
+                    p.hub.close();
+                    process.exit(code); 
+                }
             });
         });
     });
