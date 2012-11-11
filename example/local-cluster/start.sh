@@ -1,7 +1,7 @@
 #!/bin/bash
 
 secret='beepboop'
-tmpdir=/tmp/$(node -e '(Math.random()*Math.pow(2,32)).toString(16)')
+tmpdir=/tmp/$(node -e '(Math.random()*Math.pow(2,32)).toString(16)' -p)
 
 echo $tmpdir
 mkdir -p $tmpdir/hub
