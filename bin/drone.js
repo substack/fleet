@@ -56,7 +56,7 @@ drone.on('stdout', function (buf, opts) {
 
 drone.on('stderr', function (buf, opts) {
     emit('stderr', buf.toString(), opts);
-    console.log(
+    console.error(
         '[' + opts.id + '#' + opts.repo + '.' + opts.commit.slice(8)
         + '] ' + buf.toString().replace(/\n$/, '')
     );
