@@ -63,6 +63,12 @@ To see the process list across all your drones do:
 $ fleet ps
 ```
 
+To format the ps output as json do:
+
+```
+$ fleet ps --json
+```
+
 commands
 ========
 
