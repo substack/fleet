@@ -64,6 +64,7 @@ $ fleet ps
 ```
 
 To format the ps output as json do:
+
 ```
 $ fleet ps --json
 ```
