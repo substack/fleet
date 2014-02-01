@@ -1,16 +1,16 @@
 {
     "name" : "fleet",
     "description" : "command a cluster of processes ",
-    "version" : "0.1.6",
+    "version" : "0.1.7",
     "repository" : {
         "type" : "git",
         "url" : "git://github.com/substack/fleet.git"
     },
     "main" : "index.js",
     "bin" : {
-        "fleet" : "bin/command.sh",
+        "fleet" : "bin/command.js",
         "fleet-rootdir" : "bin/rootdir.js",
-        "fleet-help" : "bin/help.sh",
+        "fleet-help" : "bin/help.js",
         "fleet-remote" : "bin/remote.js",
         "fleet-deploy" : "bin/deploy.js",
         "fleet-drone" : "bin/drone.js",
