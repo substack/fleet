@@ -34,8 +34,7 @@
         "man" : "man1"
     },
     "scripts" : {
-        "test" : "tap test/*.js",
-        "fleet": "node bin/command.js"
+        "test" : "tap test/*.js"
     },
     "dependencies" : {
         "propagit" : "~0.6.4",
