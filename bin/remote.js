@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+console.log('remote')
 var argv = require('optimist').argv;
 var fs = require('fs');
 var path = require('path');

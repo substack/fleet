@@ -8,7 +8,7 @@
     },
     "main" : "index.js",
     "bin" : {
-        "fleet" : "bin/command.sh",
+        "fleet" : "bin/command.js",
         "fleet-rootdir" : "bin/rootdir.js",
         "fleet-help" : "bin/help.sh",
         "fleet-remote" : "bin/remote.js",
@@ -34,7 +34,8 @@
         "man" : "man1"
     },
     "scripts" : {
-        "test" : "tap test/*.js"
+        "test" : "tap test/*.js",
+        "fleet": "node bin/command.js"
     },
     "dependencies" : {
         "propagit" : "~0.6.4",
