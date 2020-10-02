@@ -1,4 +1,4 @@
-fleet
+Fleet
 =====
 
 Command an armada of processes in a cluster.
@@ -11,7 +11,7 @@ to make rolling out new code to a bunch of worker drones super simple!
 
 ![fleet](http://substack.net/images/fleet.png)
 
-install
+Install
 =======
 
 With [npm](http://npmjs.org) do:
@@ -20,7 +20,7 @@ With [npm](http://npmjs.org) do:
 npm install -g fleet
 ```
 
-example
+Example
 =======
 
 In a fresh directory, start a fleet hub:
@@ -63,7 +63,7 @@ To see the process list across all your drones do:
 $ fleet ps
 ```
 
-commands
+Commands
 ========
 
 ```
@@ -84,12 +84,12 @@ The commands are:
 For help about a command, try `fleet help <command>`.
 ```
 
-tips
+Tips
 ====
 
 * Fleet will acutally use two ports one for the control service and one for the git service. So if you start Fleet on port 7000 it will also use port 7001.
 
-license
+License
 =======
 
 MIT
